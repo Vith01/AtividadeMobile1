@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela3e4">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="O jogador, como Jack, consegue derrotar os inimigos com o uso de várias armas, utilizando plasmídeos que lhe dá poderes únicos ou fazendo com que as próprias defesas da cidade se virem contra os seus habitantes."
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/button6"
+        android:onClick="Anterior"
+        android:background="@drawable/anterior"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/button7"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="Proxima2"
+        android:background="@drawable/proximo" />
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela3e4">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/editText"
+        android:layout_marginTop="158dp"
+        android:text="CONHEÇA MAIS NAS REDES SOCIAIS E SITES DO JOGO:"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:autoText="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/button8"
+        android:layout_marginTop="43dp"
+        android:onClick="Facebook"
+        android:background="@drawable/facebook"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/button9"
+        android:layout_marginRight="81dp"
+        android:layout_marginEnd="81dp"
+        android:onClick="Site"
+        android:background="@drawable/site"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:id="@+id/button10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="Sair2"
+        android:background="@drawable/sair" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/button11"
+        android:onClick="Sobre"
+        android:background="@drawable/sobre"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:id="@+id/button12"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="Voltar"
+        android:background="@drawable/inicio" />
+</RelativeLayout>

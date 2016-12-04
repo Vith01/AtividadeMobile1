@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela3e4">
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A história de BioShock decorre em 1960, no qual o jogador controla Jack, depois do seu avião cair no oceano, junto a um terminal batisférico que leva à cidade subaquática de Rapture.Jack tenta encontrar uma maneira de escapar, lutando contra enormes quantidades de inimigos obcecados por ADAM, como os mortíferos Big Daddies, enquanto também se encontra com alguns humanos sãos e através deles acaba eventualmente por aprender mais sobre o passado de Rapture."
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/button5"
+        android:onClick="Proxima"
+        android:background="@drawable/proximo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
